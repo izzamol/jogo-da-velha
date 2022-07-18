@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jogo da velha - lomazzi</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="placar">
+            <div class="x" >
+
+                <h4>X : <span id="x">0</span></h4>
+            </div>
+            <div class="x" >
+                <h4>O : <span id="o">0</span></h4>
+            </div>
+            <br>
+            
+            <div class="x" >
+                <h4>Empate : <span id="e">0</span></h4>
+            </div>
+
+        </div>
+
+
+        <div class="mesa-de-jogo" data-mesaDeJogo >
+                <div class="cell " data-cell></div>   
+                <div class="cell " data-cell></div>
+                <div class="cell " data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>   
+        </div>
+        <div class="mensagem-de-vitoria" data-MensageDeVitoria>
+            <p data-mensagemVencedor> X venceu!</p>
+            <button onclick="iniciarJogo()">reiniciar</button>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
