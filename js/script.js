@@ -39,6 +39,11 @@ function iniciarJogo(){
 
 
 
+
+
+
+
+
 const combinacaoVitoria = [
 
     //horizontal
@@ -50,7 +55,7 @@ const combinacaoVitoria = [
     //vertical
     [0, 3, 6], //eixo y 1
     [1, 4, 7], //eixo y 2
-    [3, 6, 8], //eixo y 3
+    [, 6, 8], //eixo y 3
 
     //diagonal
     [0, 4, 8], //diagonal decendente
@@ -218,3 +223,5 @@ function empate(){
         return cell.classList.contains('x') || cell.classList.contains('o')
      })
 }
+
+
