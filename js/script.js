@@ -55,7 +55,7 @@ const combinacaoVitoria = [
     //vertical
     [0, 3, 6], //eixo y 1
     [1, 4, 7], //eixo y 2
-    [, 6, 8], //eixo y 3
+    [2, 5, 8], //eixo y 3
 
     //diagonal
     [0, 4, 8], //diagonal decendente
